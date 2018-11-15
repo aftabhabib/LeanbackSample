@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="54dp"
+        android:text="@string/local_app"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+
+    <android.support.v17.leanback.widget.VerticalGridView
+        android:id="@+id/verticalGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginTop="133dp"
+        app:numberOfColumns="7" />
+
+</RelativeLayout>

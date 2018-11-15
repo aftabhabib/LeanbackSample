@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LeanbackSample</string>
+    <string name="local_app">Local Application</string>
+</resources>
